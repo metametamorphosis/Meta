@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2aed966-aade-407c-b654-5b8f205172df" name="Changes" comment="написал метод, вычисляющий числа Фибоначчи (сырой оч сырой, кз я рак)">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e2aed966-aade-407c-b654-5b8f205172df" name="Changes" comment="изменил gitignore">
+      <change beforePath="$PROJECT_DIR$/src/EmulateQuestPackage/EmulateQuestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmulateQuestPackage/EmulateQuestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688327871792</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="изменил gitignore">
+      <created>1688398922589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688398922589</updated>
+    </task>
+    <task id="LOCAL-00005" summary="изменил gitignore">
+      <created>1688399065319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688399065319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +115,7 @@
     <MESSAGE value="add method &quot;sum&quot;" />
     <MESSAGE value="delete method &quot;sum&quot;&#10;testing gitignore" />
     <MESSAGE value="написал метод, вычисляющий числа Фибоначчи (сырой оч сырой, кз я рак)" />
-    <option name="LAST_COMMIT_MESSAGE" value="написал метод, вычисляющий числа Фибоначчи (сырой оч сырой, кз я рак)" />
+    <MESSAGE value="изменил gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменил gitignore" />
   </component>
 </project>

@@ -7,7 +7,7 @@ public class EmulateQuestClass {
         Scanner scanner = new Scanner(System.in);
         System.out.print("fibonacci's edge = ");
         byte x = scanner.nextByte();
-        System.out.println("_____");
+        System.out.println("_____X_____");
         fibonacci(x);
     }
     
