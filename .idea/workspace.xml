@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2aed966-aade-407c-b654-5b8f205172df" name="Changes" comment="delete method &quot;sum&quot;&#10;testing gitignore">
-      <change afterPath="$PROJECT_DIR$/src/EmulateQuestPackage/EmulateQuestClass.java" afterDir="false" />
+    <list default="true" id="e2aed966-aade-407c-b654-5b8f205172df" name="Changes" comment="написал метод, вычисляющий числа Фибоначчи (сырой оч сырой, кз я рак)">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +28,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -47,12 +47,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688325074350</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="написал метод, вычисляющий числа Фибоначчи (сырой оч сырой, кз я рак)">
+      <created>1688327871792</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688327871792</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add method &quot;sum&quot;" />
     <MESSAGE value="delete method &quot;sum&quot;&#10;testing gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete method &quot;sum&quot;&#10;testing gitignore" />
+    <MESSAGE value="написал метод, вычисляющий числа Фибоначчи (сырой оч сырой, кз я рак)" />
+    <option name="LAST_COMMIT_MESSAGE" value="написал метод, вычисляющий числа Фибоначчи (сырой оч сырой, кз я рак)" />
   </component>
 </project>
