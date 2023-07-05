@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2aed966-aade-407c-b654-5b8f205172df" name="Changes" comment="изменил gitignore">
-      <change beforePath="$PROJECT_DIR$/src/EmulateQuestPackage/EmulateQuestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmulateQuestPackage/EmulateQuestClass.java" afterDir="false" />
+    <list default="true" id="e2aed966-aade-407c-b654-5b8f205172df" name="Changes" comment="было System.out.println(&quot;_____&quot;);&#10;стало System.out.println(&quot;_____X_____&quot;);">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688399065319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="было System.out.println(&quot;_____&quot;);&#10;стало System.out.println(&quot;_____X_____&quot;);">
+      <created>1688399514154</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688399514154</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +124,7 @@
     <MESSAGE value="delete method &quot;sum&quot;&#10;testing gitignore" />
     <MESSAGE value="написал метод, вычисляющий числа Фибоначчи (сырой оч сырой, кз я рак)" />
     <MESSAGE value="изменил gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменил gitignore" />
+    <MESSAGE value="было System.out.println(&quot;_____&quot;);&#10;стало System.out.println(&quot;_____X_____&quot;);" />
+    <option name="LAST_COMMIT_MESSAGE" value="было System.out.println(&quot;_____&quot;);&#10;стало System.out.println(&quot;_____X_____&quot;);" />
   </component>
 </project>
