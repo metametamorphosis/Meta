@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2aed966-aade-407c-b654-5b8f205172df" name="Changes" comment="было System.out.println(&quot;_____&quot;);&#10;стало System.out.println(&quot;_____X_____&quot;);">
+    <list default="true" id="e2aed966-aade-407c-b654-5b8f205172df" name="Changes" comment="getPrimes(count)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -47,13 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688399514154</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="getPrimes(count)">
+      <created>1688597165045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688597165045</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +133,10 @@
     <MESSAGE value="написал метод, вычисляющий числа Фибоначчи (сырой оч сырой, кз я рак)" />
     <MESSAGE value="изменил gitignore" />
     <MESSAGE value="было System.out.println(&quot;_____&quot;);&#10;стало System.out.println(&quot;_____X_____&quot;);" />
-    <option name="LAST_COMMIT_MESSAGE" value="было System.out.println(&quot;_____&quot;);&#10;стало System.out.println(&quot;_____X_____&quot;);" />
+    <MESSAGE value="getPrimes(count)" />
+    <option name="LAST_COMMIT_MESSAGE" value="getPrimes(count)" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Meta$Main.ic" NAME="Main Coverage Results" MODIFIED="1689995588811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
