@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2aed966-aade-407c-b654-5b8f205172df" name="Changes" comment="getPrimes(count)">
+    <list default="true" id="e2aed966-aade-407c-b654-5b8f205172df" name="Changes" comment="merge sort testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmulateQuestPackage/EmulateQuestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmulateQuestPackage/EmulateQuestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -113,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688597165045</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="merge sort testing">
+      <option name="closed" value="true" />
+      <created>1690007986331</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690007986331</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +144,8 @@
     <MESSAGE value="изменил gitignore" />
     <MESSAGE value="было System.out.println(&quot;_____&quot;);&#10;стало System.out.println(&quot;_____X_____&quot;);" />
     <MESSAGE value="getPrimes(count)" />
-    <option name="LAST_COMMIT_MESSAGE" value="getPrimes(count)" />
+    <MESSAGE value="merge sort testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge sort testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Meta$Main.ic" NAME="Main Coverage Results" MODIFIED="1689995588811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
