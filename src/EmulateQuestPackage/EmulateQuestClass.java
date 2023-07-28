@@ -1,6 +1,5 @@
 package EmulateQuestPackage;
 
-import java.util.Scanner;
 
 public class EmulateQuestClass {
     public static void main(String[] args) {
