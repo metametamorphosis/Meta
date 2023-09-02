@@ -30,6 +30,14 @@ public class DateAndTime {
             System.out.println(periodStart);
             periodStart = periodStart.plus(period);
         }
+        System.out.println("LearningDuration");
+        LocalTime durationStart = LocalTime.of(12, 40);
+        LocalTime durationEnd = LocalTime.of(13, 0, 30);
+        Duration duration = Duration.ofMinutes(5);
+        while (durationStart.isBefore(durationEnd)) {
+            System.out.println(durationStart);
+            durationStart = durationStart.plus(duration);
+        }
 
     }
 }
