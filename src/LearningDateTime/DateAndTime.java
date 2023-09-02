@@ -1,43 +1,59 @@
 package LearningDateTime;
 import java.time.*;
+import java.time.format.*;
 
 public class DateAndTime {
     //LocalDate, LocalTime, LocalDateTime are IMMUTABLE!!!
     public static void main(String[] args) {
-        LocalDate ld = LocalDate.of(2023, Month.SEPTEMBER, 1); // (2023, 9, 1)
-        System.out.printf("Local Date: %s\n", ld);
 
-        LocalTime lt = LocalTime.of(1, 59, 59, 999999999);
-        System.out.printf("Local Time: %s\n", lt);
+        DateTimeFormatter dtf = DateTimeFormatter.ISO_LOCAL_DATE;
+        LocalDate ld = LocalDate.of(2000, 6, 1);
+        LocalDateTime ldt = LocalDateTime.of(2000, 6, 1, 18, 0, 30, 500000);
+        DateTimeFormatter _dtf = DateTimeFormatter.ISO_LOCAL_TIME;
+        LocalTime lt = LocalTime.of(21, 45, 15, 5000000);
 
-        LocalDateTime ldt = LocalDateTime.of(ld, lt);
-        System.out.printf("Local DateTime: %s\n", ldt);
 
-        System.out.println("___");
-        System.out.println("LearningPlusMinus");
+        System.out.println(ld.format(dtf));
+        System.out.println(ld.format(DateTimeFormatter.ISO_ORDINAL_DATE));
+        System.out.println(ldt.format(dtf));
+        System.out.println(LocalTime.of(15, 30, 0).format(_dtf));
 
-        ldt = ldt.plusNanos(1).minusMonths(8).minusMonths(36);
-        System.out.printf("Local DateTime: %s\n", ldt);
+        System.out.println("____________________________");
 
-        System.out.println("___");
+        System.out.println("---ofLocalizedDate---");
+        DateTimeFormatter shortDTF = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+        DateTimeFormatter mediumDTF = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM);
+        DateTimeFormatter longDTF = DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG);
+        DateTimeFormatter fullDTF = DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL);
 
-        //isAfter, isBefore (equals same type objects)
-        System.out.println("LearningPeriod");
-        LocalDate periodStart = LocalDate.of(2000, Month.SEPTEMBER, 1);
-        LocalDate periodEnd = LocalDate.of(2007, Month.SEPTEMBER, 1);
-        Period period = Period.of(1, 8, 15);
-        while (periodStart.isBefore(periodEnd)) {
-            System.out.println(periodStart);
-            periodStart = periodStart.plus(period);
-        }
-        System.out.println("LearningDuration");
-        LocalTime durationStart = LocalTime.of(12, 40);
-        LocalTime durationEnd = LocalTime.of(13, 0, 30);
-        Duration duration = Duration.ofMinutes(5);
-        while (durationStart.isBefore(durationEnd)) {
-            System.out.println(durationStart);
-            durationStart = durationStart.plus(duration);
-        }
+        System.out.println(ld.format(shortDTF));
+        System.out.println(ld.format(mediumDTF));
+        System.out.println(ld.format(longDTF));
+        System.out.println(ld.format(fullDTF));
+
+        System.out.println("---ofLocalizedTime---");
+        DateTimeFormatter _shortDTF = DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT);
+        DateTimeFormatter _mediumDTF = DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM);
+
+        System.out.println(lt.format(_shortDTF));
+        System.out.println(lt.format(_mediumDTF));
+
+        System.out.println("---ofLocalizedDateTime---");
+        DateTimeFormatter __shortDTF = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
+        DateTimeFormatter __mediumDTF = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
+
+        System.out.println(ldt.format(__shortDTF));
+        System.out.println(ldt.format(__mediumDTF));
+        System.out.println(__mediumDTF.format(ldt));
+
+        System.out.println("---ofPattern---");
+        DateTimeFormatter myFormat = DateTimeFormatter.ofPattern("HH:mm, d MMMM, yyyy г.");
+        System.out.println(myFormat.format(ldt));
+
+        System.out.println("---StringParse---");
+        LocalDateTime stringTest = LocalDateTime.parse("12:30, 17 августа, 2001 г.", myFormat);
+        System.out.println(stringTest);
+
 
     }
 }
